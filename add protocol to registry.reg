@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\yt-dlp]
+"URL Protocol"=""
+@="URL:yt-dlp Protocol"
+
+[HKEY_CLASSES_ROOT\yt-dlp\shell]
+
+[HKEY_CLASSES_ROOT\yt-dlp\shell\open]
+
+[HKEY_CLASSES_ROOT\yt-dlp\shell\open\command]
+@="\"C:\\Users\\Admin\\AppData\\Programming\\js calls yt-dlp\\protocol handler.exe\" \"%1\""
+
