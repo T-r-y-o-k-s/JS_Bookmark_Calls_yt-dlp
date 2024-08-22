@@ -30,7 +30,7 @@ char *substr(char *instr, int pos, int len) {
     return &instr[pos];
 }
 
-int main(int argc, char** argv) { // argv[1] = yt-dlp://R-DEp62qDeE/
+int main(int argc, char** argv) {
     if (argc != 2) {
         printf("This program is intended to only be executed via the yt-dlp:// protocol.\n");
         printf("If this is actually the case, then there is a bug in here somewhere ...\n");
