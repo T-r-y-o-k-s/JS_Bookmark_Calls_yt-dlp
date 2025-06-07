@@ -5,7 +5,8 @@ This allows the user to, as the name kinda suggests, click on a javascript bookm
 - [Firefox](https://www.mozilla.org/en-US/firefox/download/)
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) installed and available in the PATH environment variable
 
-Sadly, this only works on Windows. Look at [How it works](#how-it-works) for an explanation.
+Sadly, this only works on Windows. (And I'm neither bored nor skilled enough to add support for anything else.) <br>
+Look at [How it works](#how-it-works) for an explanation.
 
 ## Setup
 1. Clone this repository or download the individual files and put them wherever you want them to reside.
@@ -18,9 +19,9 @@ Sadly, this only works on Windows. Look at [How it works](#how-it-works) for an 
 
 ## How it works
 When you click on the bookmarklet, a small snippet of javascript code is executed. This will grab the video ID from the current page (and check whether you even are on a valid video page)
-and attempt to open a special url: ```yt-dlp://``` followed by the video ID. <br>
+and attempt to open a special url: ```yt-﻿dlp://``` followed by the video ID. <br>
 This is a special protocol defined only through this project that will call ```protocol handler.exe```. All the protocol magic is built into Windows and can be set up using the registry. <br>
-Once ```protocol handler.exe``` is run, a Command Prompt window will pop up. You can minimize it or use it to moniter the progress of the download. <br>
+Once ```protocol handler.exe``` is run, a Command Prompt window will pop up. You can minimize it or use it to monitor the progress of the download. <br>
 This will call yt-dlp with a set of predefined parameters:
   - The video's resolution will be 1080p or the best available resolution below that.
   - The final file will be in a .mp4 container.
