@@ -1,7 +1,5 @@
 # JS Bookmark Calls yt-dlp
-This allows the user to, as the name kinda suggests, click on a javascript bookmarklet while on a YouTube video page to download the video in the background using yt-dlp and open it afterwards in VLC.
-VLC will be paused and minimized so you can click on the tray icon to watch the video whenever you want.
-For your convenience, the downloaded video file is automagically deleted once you close VLC.
+This allows the user to, as the name kinda suggests, click on a javascript bookmarklet while on a YouTube video page to download the video in the background using yt-dlp.
 
 ## Prerequisites
 - [Firefox](https://www.mozilla.org/en-US/firefox/download/)
